@@ -1,0 +1,19 @@
+{
+  "name": "logistic-cost-lib",
+  "version": "1.0.0",
+  "description": "Library for calculating logistic cost",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PackPlay/logistic-cost-lib.git"
+  },
+  "author": "Pat Sabpisal <ssabpisa@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PackPlay/logistic-cost-lib/issues"
+  },
+  "homepage": "https://github.com/PackPlay/logistic-cost-lib#readme"
+}
