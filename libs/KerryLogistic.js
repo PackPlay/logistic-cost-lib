@@ -1,7 +1,7 @@
 class KerryLogistic {
 
-    constructor(price_step){
-        this.price_steps = price_step;
+    constructor(){
+        this.price_steps = [30, 65, 85, 100, 140, 185, 290, 380];
     }
 
     _getPerim(width, height, length, q){
@@ -90,4 +90,4 @@ class KerryLogistic {
 *
 * Steps is the KERRY pricing step
 */
-module.exports = new KerryLogistic([30, 65, 85, 100, 140, 185, 290, 380]);
+module.exports = KerryLogistic;
