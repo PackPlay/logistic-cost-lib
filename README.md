@@ -3,7 +3,7 @@ Library for calculating logistic cost
 
 ## Cart Structure
 All libs take cart as argument
-```
+```json
 [{
     quantity: 500,
     sku: {
@@ -20,7 +20,7 @@ All libs take cart as argument
 
 ## Usage
 
-```
+```js
 let cart = [{
     quantity: 500,
     sku: {
