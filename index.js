@@ -1,6 +1,9 @@
 'use strict';
 
 module.exports = {
-    Kerry: require('./libs/KerryLogistic'),
-    TP: require('./libs/TPLogistic')
+    Courier: {
+        Kerry: require('./build/KerryLogistic'), 
+        TP: require('./build/TPLogistic')
+    },
+    ZipCode: require('./build/ZipCode')
 }

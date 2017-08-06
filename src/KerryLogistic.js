@@ -1,9 +1,14 @@
 class KerryLogistic {
 
-    static PRICE_UPCOUNTRY = [45, 80, 100, 115, 155, 205, 330, 420];
-    static PRICE_URBAN = [30, 65, 85, 100, 140, 185, 290, 380];
 
-    constructor(price = KerryLogistic.PRICE_URBAN) {
+    constructor(price) {
+        this.PRICE_UPCOUNTRY = [45, 80, 100, 115, 155, 205, 330, 420];
+        this.PRICE_URBAN = [30, 65, 85, 100, 140, 185, 290, 380];
+
+        if(!price){
+            price = this.PRICE_URBAN;
+        }
+
         this.price_steps = price;
     }
 
