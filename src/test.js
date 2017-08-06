@@ -24,9 +24,9 @@ let cfun = KL.getCostFunction();
 let cfun2 = TPN.getCostFunction();
 let cfun3 = TPN_EMS.getCostFunction();
 
-kerr_solution = cfun(cart);
-tpn_solution = cfun2(cart);
-tpne_solution = cfun3(cart);
+let kerr_solution = cfun(cart);
+let tpn_solution = cfun2(cart);
+let tpne_solution = cfun3(cart);
 
 console.log("KERRY", kerr_solution);
 console.log("TPNORM", tpn_solution);
