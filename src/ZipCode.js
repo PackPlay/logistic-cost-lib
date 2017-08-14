@@ -11,8 +11,5 @@ class ZipCode{
 
     }
 
-    getSubDistricts(){
-        
-    }
     
 }
